@@ -1,6 +1,6 @@
-# Recursive web crawler
+# 🕸️ Recursive web crawler
 
-### About the assignment
+### About the task
 
 This crawler does not implement functionality to continue loading after an interruption. Which, however, can be added without rewriting the program from scratch. 
 What I also think should be implemented can be found in the TODO lists in the source code.

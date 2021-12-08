@@ -14,9 +14,13 @@ Recommended way, via Docker: `docker build . -t ${PWD##*/} && docker run --rm -v
 Where the second-to-last parameter is the url and the last one is the directory.
 
 
-Alternatively: ```pip install -r requirements.txt
-crawler.py [OPTIONS] START_URL DESTINATION ```
+Alternatively: 
+```
+pip install -r requirements.txt
+crawler.py [OPTIONS] START_URL DESTINATION 
+```
 
+Options:
 
 ```❯ python3 crawler.py --help
 Usage: crawler.py [OPTIONS] START_URL DESTINATION
